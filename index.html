@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Página web los sharps</title>
+</head>
+
+<!-- Inicio -->
+
+<body>
+  <header id="inicio"> 
+    <img src="hamburguesa.svg" alt="" class="hamburguer">
+    <nav class="menu-navegacion">
+      <a href="#inicio">Inicio</a>
+      <a href="#objetivo">Objetivos</a> 
+      <a href="#documentos">Documentos</a>
+      <a href="#video">Videos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="contenedor head">
+      <h1 class="titulo">Laboratorio#2</h1>
+      <p class="copy">Presentado por:</p>
+      <p class="copy">Orlando Narvaez Baracaldo</p>
+      <p class="copy">Julian Andres Quiroga Ballen</p>
+    </div>
+  </header>
+
+<!-- Objetivos -->
+
+  <main>
+    <section class="services contenedor" id="objetivo">
+      <h2 class="subtitulo">Objetivos</h2>
+      <div class="contenedor-servicio">
+        <img src="checklist.svg" alt="">
+        <div class="checklist-servicio">
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">1</span> Diseño web
+            </h3>
+            <p>Crear una pagina web con conocimientos basicos de HTML, CSS Y JS</p>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">2</span> Conexión al servicio apache
+            </h3>
+            <p>Demostrar la conexión al servicio apache desde: </p>
+            <p>1. Su celular </p>
+            <p>2. Su máquina física  </p>
+            <p>3. Otra máquina física en la misma red </p>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">3</span> Utilizar el servicio de ngrok
+            </h3>
+            <p>Publicar el servicio (mostrar nueva URL y puerto)</p>
+            <p>Acceder desde un celular y maquina remota al servicio en línea </p>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">4</span> Descargas
+            </h3>
+            <p>Adicionar la descarga de un archivo embebido en la página </p>
+          </div>
+        </div>
+      </div>
+
+<!-- Documentos -->
+
+    </section>
+    <section class="services contenedor" id="documentos">
+      <h2 class="subtitulo">Documentos</h2>
+      <div class="contenedor-servicio">
+        <img src="archivos.jpg" alt="">
+        <div class="checklist-servicio">
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">1</span> Presentación #1 - Introducción.
+            </h3>
+            <a href="Introducción a la Infraestructura de Comunicaciones - Clase 1.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('Introducción a la Infraestructura de Comunicaciones - Clase 1.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">2</span> Presentación #2 - Continuación de Introducción.
+            </h3>
+            <a href="Introducción a la Infraestructura de Comunicaciones - Clase 2.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('Introducción a la Infraestructura de Comunicaciones - Clase 2.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">3</span> Presentación #3 - Encapsulación y Capa de Aplicación.
+            </h3>
+            <a href="Encapsulación y Capa de Aplicación - Clase 3.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('Encapsulación y Capa de Aplicación - Clase 3.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">4</span> Presentación #4 Protocolo HTTP.
+            </h3>
+            <a href="PROTOCOLO HTTP - Calse 4.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('PROTOCOLO HTTP - Calse 4.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">5</span> Presentación #5 Procotolo DNS.
+            </h3>
+            <a href="Presentación DNS.pptx.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('Presentación DNS.pptx.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">6</span> Presentación #6 - Presentación FTP.
+            </h3>
+            <a href="ftp.pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('ftp.pdf')">
+              - Descargar
+            </button>
+          </div>
+          <div class="service">
+            <h3 class="n-service">
+              <span class="number">3</span> Presentación #7 - Capa de transporte
+            </h3>
+            <a href="10 - Capa de Trasnporte_1 (1).pdf" target="_blank">Ver presentación</a>
+            <button onclick="downloadFile('ftp.pdf')">
+              - Descargar
+            </button>
+          </div>
+        </div>
+      </div>   
+    </section>
+
+<!-- Videos -->
+
+    <section class="videos" id="video">
+      <div class="contenedor">
+        <h2 class="subtitulo">Videos</h2>
+          <h1>Capa de Aplicación del modelo TCP/IP</h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iNh-62Mf0O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      </section>
+      <section class="videos">
+        <div class="contenedor">
+            <h1>Protocolos de Correo Electrónico</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NGDaHX9W7Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </section>
+      <section class="videos">
+        <div class="contenedor">
+            <h1>SSH vs Telnet</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WY1mLHXZbr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+<!-- Galeria -->
+
+        </section>
+        <section class="gallery" id="galeria">
+          <div class="contenedor">
+            <h2 class="subtitulo">Galeria</h2>
+            <div class="contenedor-galeria">
+              <img src="1.webp" alt="" class="img-galeria">
+              <img src="aperLinux.webp" alt="" class="img-galeria">
+              <img src="3.jpg" alt="" class="img-galeria">
+              <img src="fz.jpg" alt="" class="img-galeria">
+              <img src="servidorfisico-1.jpg" alt="" class="img-galeria">
+              <img src="images.png" alt="" class="img-galeria">
+            </div>
+          </div>
+        </section>
+        <section class="imagen-light">
+          <img src="close.svg" alt="" class="close">
+          <img src="" alt="" class="agregar-imagen">
+        </section>
+
+<!-- Contacto -->
+
+  </main>
+  <footer id="contacto">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+        <h2 class="brand">Los sharps</h2>
+        <p>Somo expertos en hacer laboratorios</p>
+      </div>
+      <section class="social-1"></section>
+      <div class="social-media">
+        <section class="social-1" id="red-social-1">
+          <a href="./" class="social-media-icon">
+            <i class='bx bxl-facebook'></i>
+          </a>
+        </section>
+        <section class="social-2" id="red-social-2">
+          <a href="./" class="social-media-icon">
+            <i class='bx bxl-instagram'></i>
+          </a>
+        </section>
+      </div>
+    </div>
+    <div class="line"></div>
+  </footer>
+</body>
+
+<script src="menu.js"></script>
+<script src="lightbox.js"></script>
+</html>
